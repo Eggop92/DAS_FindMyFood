@@ -1,0 +1,12 @@
+Proyecto Find my Food.
+
+Proyecto para la asignatura de Desarrollo avanzado de software en ingeniería informática de gestión y sistemas de información de la escuela universitaria de ingeniería técnica industrial de Bilbao.
+
+Lenguajes:
+Andorid
+PHP
+MySQL
+
+Autores:
+Helen J. Paz
+Egoitz Puerta

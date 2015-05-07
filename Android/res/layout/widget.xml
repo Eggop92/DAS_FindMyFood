@@ -1,0 +1,18 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/widget_margin"
+    android:background="#9c8a0808"
+    android:id="@+id/layoutWidget"
+    android:orientation="vertical">
+
+    <TextView
+        style="@style/StyleTitulo"
+        android:id="@+id/restaurante"
+     />
+    <TextView
+        style="@style/StyleSubtitulo"
+        android:id="@+id/direccion"
+    />
+
+</LinearLayout>

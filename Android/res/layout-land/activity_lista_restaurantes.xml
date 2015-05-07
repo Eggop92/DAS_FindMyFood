@@ -1,0 +1,35 @@
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <fragment
+        android:layout_width="166dp"
+        android:layout_height="match_parent"
+        android:name="das.findmyfood.interfaces.ListaRestauranteFragment"
+        android:id="@+id/fragmentRestaurantes"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <fragment
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:name="das.findmyfood.interfaces.DetalleRestauranteFragment"
+            android:id="@+id/fragmentRestaurantes2"
+            android:layout_gravity="center_vertical" />
+
+        <fragment
+            android:id="@+id/elmapa"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            class="com.google.android.gms.maps.SupportMapFragment"/>
+    </LinearLayout>
+
+</LinearLayout>

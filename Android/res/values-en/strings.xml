@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Find My Food</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Lenguage</string>
+    <string name="seleciona_idioma">Select lenguage: </string>
+    <string name="title_activity_registration">Register</string>
+    <string name="title_activity_login">Log in</string>
+    <string name="title_activity_lista_restaurantes">Restaurants</string>
+    <string name="title_activity_detalles_restaurante">Restaurant</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_lista_ofertas">Offer</string>
+    <string name="title_activity_detalle_oferta">Offer</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+    <string name="title_activity_configuracion_widget">configuracionWidget</string>
+    <string name="action_logOff">Log off</string>
+    <string name="En_Restaurante">In restaurant:</string>
+    <string name="Nueva_Oferta">New offer</string>
+    <string name="FindmyFood">Find My Food</string>
+    <string name="email">e-mail</string>
+    <string name="password">Password</string>
+    <string name="sign_in">Enter</string>
+    <string name="No_estas_registrado">Not Registred? Click here</string>
+    <string name="Ver_los_restaurantes">See restaurants</string>
+    <string name="Ver_las_ofertas">See offers</string>
+    <string name="Registro">Register</string>
+    <string name="repetir_contraseña">Password again</string>
+    <string name="Registrarse">Register</string>
+    <string name="Titulo_Oferta">Offer title</string>
+    <string name="Descripcion_Oferta">Offer description</string>
+    <string name="Restaurante">Restaurant</string>
+    <string name="nombre_Restaurante">Restaurant name</string>
+    <string name="direccion_Restaurante">Restaurant direction</string>
+    <string name="descripcion_Restaurante">Restaurant description</string>
+    <string name="Favorito">Favorite</string>
+    <string name="Ver_Ofertas">See offers</string>
+    <string name="Si">Yes</string>
+    <string name="No">No</string>
+
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+
+</resources>

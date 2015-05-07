@@ -1,0 +1,78 @@
+<RelativeLayout
+
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:paddingLeft="@dimen/abc_dropdownitem_text_padding_left"
+    android:paddingRight="@dimen/abc_dropdownitem_text_padding_right"
+    android:paddingTop="@dimen/abc_action_bar_icon_vertical_padding"
+    android:background="#8A0808">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/linearLayout"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true">
+
+        <ImageView
+            android:layout_width="65dp"
+            android:layout_height="match_parent"
+            android:id="@+id/imageView"
+            android:src="@drawable/ic_launcher" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/Registro"
+            android:id="@+id/textView"
+            android:textSize="50dp"
+            android:textColor="#ffffff" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true">
+        <AutoCompleteTextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:id="@+id/editTextEmail"
+            android:hint="@string/email"
+            android:background="#ffffff"
+            android:layout_marginBottom="15dp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:inputType="textPassword"
+            android:ems="10"
+            android:id="@+id/editTextContrasena"
+            android:hint="@string/password"
+            android:background="#ffffff"
+            android:layout_marginBottom="15dp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:inputType="textPassword"
+            android:ems="10"
+            android:id="@+id/editTextContraseñaRepetida"
+            android:hint="@string/repetir_contraseña"
+            android:background="#ffffff"
+            android:layout_marginBottom="15dp" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Registrarse"
+            android:id="@+id/botonConfirmar"
+            android:layout_gravity="center_horizontal"
+            android:background="#ffff715c" />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,13 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <!-- Theme.AppCompat.Light.DarkActionBar-->
+    <style name="old_AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+
+    </style>
+    <style name="AppTheme" parent="@style/_AppTheme"/>
+
+    <style name="_AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+
+    </style>
+</resources>

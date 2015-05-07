@@ -1,0 +1,22 @@
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:weightSum="1">
+
+    <fragment
+        android:layout_width="match_parent"
+        android:name="das.findmyfood.interfaces.DetalleRestauranteFragment"
+        android:id="@+id/fragmentRestaurantes2"
+        android:layout_height="wrap_content" />
+
+    <fragment
+        android:id="@+id/elmapa"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        class="com.google.android.gms.maps.SupportMapFragment" />
+
+
+
+</LinearLayout>

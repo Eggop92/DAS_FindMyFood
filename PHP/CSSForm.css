@@ -1,0 +1,65 @@
+body 
+{
+	padding: 0; 
+	margin:0;
+	text-align: justify;
+	font-family: verdana,Arial,sans-serif;
+}
+#cabecera
+{
+	background-color: #8A0808;
+	color:  #EEEEEE;
+	font-family: Algerian,verdana, sans-serif;
+	text-align: center;
+	padding-bottom:5px;
+	margin-left: 90px;
+	margin-right: 90px;
+}
+#principal 
+{
+	margin-left: 90px;
+	margin-right: 90px;
+	padding: 10pt 60pt;
+}
+#principal pre
+{
+	font-family: verdana,Arial,sans-serif;
+}
+#principal form
+{
+	font-size: large;
+}
+#principal form  input
+{
+	background-color: #F5A9A9;
+	font-size: large;
+}
+#principal form  textarea
+{
+	background-color: #F5A9A9;
+	font-size: large;
+}
+
+#principal form input.botones 
+{
+	background-color: #8A0808;
+	font-size: x-large;
+	color:  #EEEEEE;
+}
+
+
+
+#pie_de_pag
+{
+	padding: 8px;
+	background-color:#8A0808;  
+	color:  #EEEEEE;
+	font-family: Algerian,verdana, sans-serif;
+	font-weight: bold; 
+	margin-left: 90px;
+	margin-right: 90px;
+}
+#pie_de_pag p                        
+{
+	text-align: right;
+} 

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Find My Food</string>
+    <string name="title_activity_registration">Registro</string>
+    <string name="title_activity_lista_restaurantes">Restaurantes</string>
+    <string name="title_activity_detalles_restaurante">Restaurante</string>
+    <string name="title_activity_configuracion_widget">configuracionWidget</string>
+    <string name="title_activity_lista_ofertas">Ofertas</string>
+    <string name="title_activity_detalle_oferta">Oferta</string>
+    <string name="title_activity_login">Identificarse</string>
+
+    <string name="action_settings">Idioma</string>
+    <string name="seleciona_idioma">Elige un idioma:</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="add_widget">Add widget</string>
+    <string name="action_logOff">Desconectarse</string>
+    <string name="En_Restaurante">En el restaurante:</string>
+    <string name="Nueva_Oferta">Nueva Oferta</string>
+    <string name="FindmyFood">Find My Food</string>
+    <string name="email">e-mail</string>
+    <string name="password">Contraseña</string>
+    <string name="sign_in">Entrar</string>
+    <string name="No_estas_registrado">¿No estas registrado? Haz click aquí</string>
+    <string name="Ver_los_restaurantes">Ver Restaurantes</string>
+    <string name="Ver_las_ofertas">Ver Ofertas</string>
+    <string name="Registro">Registro</string>
+    <string name="repetir_contraseña">Repite la contraseña</string>
+    <string name="Registrarse">Registrarse</string>
+    <string name="Titulo_Oferta">Titulo oferta</string>
+    <string name="Descripcion_Oferta">Descripción oferta</string>
+    <string name="Restaurante">Restaurante</string>
+    <string name="nombre_Restaurante">Nombre Restaurante</string>
+    <string name="direccion_Restaurante">Direccion Restaurante</string>
+    <string name="descripcion_Restaurante">Descripción restaurante</string>
+    <string name="Favorito">Favorito</string>
+    <string name="Ver_Ofertas">Ver las ofertas</string>
+    <string name="Si">Si</string>
+    <string name="No">No</string>
+
+    <string name="error_invalid_email">El email es incorrecto</string>
+    <string name="error_invalid_password">La contraseña es muy corta</string>
+    <string name="error_incorrect_password">La contraseña es incorrecta</string>
+    <string name="error_field_required">Falta este campo</string>
+
+</resources>

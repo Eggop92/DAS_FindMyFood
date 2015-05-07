@@ -1,0 +1,63 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="das.findmyfood.interfaces.MainActivity"
+    android:background="#8A0808">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/Ver_los_restaurantes"
+                android:id="@+id/textView"
+                android:layout_gravity="center_horizontal"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:autoText="false"
+                android:textColor="#ffffff" />
+
+            <ImageButton
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:id="@+id/imageButtonRestaurantes"
+               android:layout_alignParentTop="true"
+               android:src="@drawable/cubiertos"
+               android:layout_alignRight="@+id/imageButtonOfertas"
+               android:layout_alignEnd="@+id/imageButtonOfertas"
+               android:layout_above="@+id/imageButtonOfertas"
+               android:layout_alignLeft="@+id/imageButtonOfertas"
+               android:layout_alignStart="@+id/imageButtonOfertas"
+               android:onClick="clickBotonRestaurantes"
+               android:layout_gravity="center_horizontal"
+               android:background="#8A0808" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/Ver_las_ofertas"
+                android:id="@+id/textView2"
+                android:layout_gravity="center_horizontal"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                android:textColor="#ffffff" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageButtonOfertas"
+                android:src="@drawable/euro"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:onClick="clickBotonOfertas"
+                android:layout_gravity="center_horizontal"
+                android:background="#8A0808" />
+
+</LinearLayout>

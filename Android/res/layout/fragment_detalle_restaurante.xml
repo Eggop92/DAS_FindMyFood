@@ -1,0 +1,51 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="das.findmyfood.interfaces.DetalleRestauranteFragment"
+    android:orientation="vertical"
+    style="@style/StyleFondoRojo">
+
+    <TextView
+        style="@style/StyleDetalles"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/nombre_Restaurante"
+        android:id="@+id/textNombre" />
+
+    <TextView
+        style="@style/StyleDetalles"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/direccion_Restaurante"
+        android:id="@+id/textDireccion" />
+
+    <TextView
+        style="@style/StyleDetalles"
+        android:text="@string/descripcion_Restaurante"
+        android:id="@+id/textDescripcion" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+        <Switch
+            style="@style/StyleDetalles"
+            android:text="@string/Favorito"
+            android:id="@+id/switchFav"
+            android:textOff="@string/No"
+            android:textOn="@string/Si"
+            android:enabled="true"
+            android:focusable="false"
+            android:checked="false"
+            android:thumb="@drawable/apptheme_switch_inner_holo_light"
+            android:track="@drawable/apptheme_switch_track_holo_light"
+            />
+
+        <Button
+            android:text="@string/Ver_Ofertas"
+            android:id="@+id/buttonOfertas"
+            android:singleLine="false"
+            style="@style/StyleBotonDetalles" />
+    </LinearLayout>
+</LinearLayout>

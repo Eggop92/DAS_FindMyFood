@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+
+    <style name="StyleTitulo" parent="@android:style/TextAppearance.DeviceDefault.Widget.TabWidget">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:layout_margin">8dp</item>
+        <item name="android:background">@color/red</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">15dp</item>
+
+    </style>
+
+    <style name="StyleSubtitulo" parent="StyleTitulo">
+        <item name="android:textStyle">italic</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:background">#00000000</item>
+    </style>
+
+
+    <style name="StyleDetalles" >
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@color/red</item>
+    </style>
+
+    <style name="StyleBotonDetalles" >
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+
+    <style name="StyleFondoRojo">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@color/red</item>
+    </style>
+
+    </resources>
